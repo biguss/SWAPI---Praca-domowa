@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SWAPI App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 class="app-title">SWAPI App</h1>
+    <button id="darkModeButton">Dark Mode</button>
+    <div id="buttons"></div>
+    <table id="data-table"></table>
+
+    <div id="details-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="details-content"></div>
+      </div>
+    </div>
+
+    <div id="delete-modal" class="modal">
+      <div class="modal-content">
+        <h2>Are you sure?</h2>
+        <div>
+          <button id="delete-yes">Yes</button>
+          <button id="delete-no">No</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
